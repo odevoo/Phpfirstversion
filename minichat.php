@@ -3,6 +3,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
     <title></title>
     <?php
     try
@@ -20,13 +21,11 @@
   </head>
   <body>
     <form action="minichat_post.php" method="post">
-    <p>
-        <input type="text" name="pseudo" />
 
-        <textarea name="message" rows="8" cols="45">
+        <div><input type="text" name="pseudo" required placeholder="votre pseudo" /></div>
 
-        </textarea>
-        <input type="submit" value="Envoyer" />
+        <div><textarea required name="message" rows="8" cols="45" placeholder="votre message" ></textarea></div>
+        <div><input type="submit" value="Envoyer" /></div>
     </form>
 
 

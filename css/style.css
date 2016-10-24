@@ -1,0 +1,20 @@
+body {
+ /*background-color: #bdc3c7;*/
+background-color: black;
+color: rgb(0, 255, 0);
+}
+
+h1 {
+
+  color: #3498db;
+
+}
+
+ul, li {
+list-style-type: none;
+
+}
+
+strong {
+ color: gold;
+}
