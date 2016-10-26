@@ -1,7 +1,7 @@
 body {
- /*background-color: #bdc3c7;*/
-background-color: black;
-color: rgb(0, 255, 0);
+  /*background-color: #bdc3c7;*/
+  background-color: black;
+  color: rgb(0, 255, 0);
 }
 
 h1 {
@@ -11,10 +11,10 @@ h1 {
 }
 
 ul, li {
-list-style-type: none;
+  list-style-type: none;
 
 }
 
 strong {
- color: gold;
+  color: gold;
 }
